@@ -29,17 +29,20 @@ else {
 // Iteration 3: Loops
 
 //3.1
+
 for (let i = 0; i < driverName.length; i++) {
     
     console.log(driverName.toUpperCase()[0]+ " " + driverName.toUpperCase()[1] + " " + driverName.toUpperCase()[2] + " " + driverName.toUpperCase()[3]);
 }
 
 //3.2
+
 for(let i = navigatorName.length -1 ; i >= 0; i--){
     console.log(navigatorName[i]);   
 }
 
 // 3.3
+
 if (hacker1 > hacker2) {
 
     console.log (`The driver's name goes first.`)
@@ -51,4 +54,5 @@ if (hacker1 > hacker2) {
 } else {
 
     console.log (`What?! You both have the same name?`)
+
 }
